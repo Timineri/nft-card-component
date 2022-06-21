@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Equilibrium-image{
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.card{
+    width: 50%;
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 0.5em;
+    line-height: 1.5em;
+}
+
+h3{
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 15px;
+}
+
+h3:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+p{
+    color: hsl(215, 51%, 70%);
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+.flex-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+#cyan{
+    color: hsl(178, 100%, 50%);
+}
+
+hr{
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+
+.author{
+    padding-top: 20px;
+    display: flex;
+}
+
+.picture{
+    width: 15%;
+    height: 15%;
+    border-radius: 3em;
+    border: 2px solid white;
+}
+
+#creation{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+span {
+    color: hsl(0, 0%, 100%);
+}
+span:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+@media screen and (min-width: 575px) {
+    .card{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 695px) {
+    .card{
+        width: 35%;
+    }
+}
+
+@media screen and (min-width: 725px) {
+    .card{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 865px) {
+    .card{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .card{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .card{
+     width: 70%;
+ }
+}
+    
+ @media screen and (max-width: 300px) {
+    .card{
+     width: 80%;
+ }
+}
